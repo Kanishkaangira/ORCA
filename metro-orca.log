@@ -1,0 +1,19 @@
+
+Welcome to React Native v0.87
+Starting dev server on http://localhost:8081
+
+[31m[7m[1m ERROR [22m[27m[39m An unknown error occurred while installing React Native DevTools. Details:
+
+spawn EPERM
+error listen EADDRINUSE: address already in use :::8081.
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at C:\Users\Kanishka\Desktop\ORCA\node_modules\metro\src\index.flow.js:454:14
+    at new Promise (<anonymous>)
+    at earlyPortCheck (C:\Users\Kanishka\Desktop\ORCA\node_modules\metro\src\index.flow.js:450:11)
+    at Object.runServer (C:\Users\Kanishka\Desktop\ORCA\node_modules\metro\src\index.flow.js:200:9)
+    at Object.runServer [as func] (C:\Users\Kanishka\Desktop\ORCA\node_modules\@react-native\community-cli-plugin\dist\commands\start\runServer.js:146:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Command.handleAction (C:\Users\Kanishka\Desktop\ORCA\node_modules\@react-native-community\cli\build\index.js:139:9)
